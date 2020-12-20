@@ -10,6 +10,8 @@ Data : Contains EF core management class + DB Models\
 Exceptions : Contains all created exceptions\
 Menu : Contains the menu manager\
 
+# TODO
+
 Unit Testing \
 Documentation \
 Better Exceptions management \

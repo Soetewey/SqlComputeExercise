@@ -43,6 +43,7 @@ namespace SqlComputeExercise.ConsoleTools
                     return true ;
                 case "Q":
                     _writer.Write("Merci et à bientôt.");
+                    System.Threading.Thread.Sleep(4000);
                     return false;
                 default:
                     throw new IncorrectWelcomeMenuInputException("Possible values : C, Q. Received value : " + openingMessage);
